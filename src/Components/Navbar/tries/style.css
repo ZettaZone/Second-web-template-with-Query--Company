@@ -1,0 +1,107 @@
+
+/* First way to Styled Components*/
+
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar .logo {
+   /* width: 50%;*/
+    float: left;
+}
+
+.navbar .logo .logo_text{
+    font-size : 30px;
+    font-weight: bold;
+}
+
+.navbar input , .navbar label {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.navbar input{
+    display: none;
+}
+
+.navbar label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    /*background: url("../images/Navbar/open.png") no-repeat;*/
+    /*background: url("./../../../public/images/Navbar/open.png");*/
+    background-size: cover;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar input:checked ~ .ul_list{
+    display: block;
+}
+
+.navbar input:checked ~ label{
+    /*background: url("./../../../public/images/Navbar/close.png") no-repeat;*/
+    background-size: cover;
+}
+
+.navbar .ul_list{
+    width: 50%;
+    float: right;
+    list-style: none;
+}
+
+.navbar .ul_list .list_item{
+    display: inline-block;
+}
+
+.navbar .ul_list .list_item a{
+    display: block;
+    text-decoration: none;
+    color:#222;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.navbar .ul_list .list_item a:hover{  
+    color: #081F62;
+}
+
+/* Media for Navbar Style */
+@media (max-width : 991px){
+    .navbar .logo{
+        width:100%;
+        float: none;
+    }
+
+    .navbar .ul_list{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .navbar .ul_list .list_item{
+        display:block;
+        text-align: center;
+    }
+}
+
+@media (min-width : 992px){
+    .navbar label{
+        display: none;
+    }
+}
+
+@media (max-width : 767px){
+    .navbar .logo .logo_text{
+        font-size : 24px;
+        font-weight: bold;
+    }
+    .navbar label {
+        width: 7px;
+        height: 7px;
+    }
+}

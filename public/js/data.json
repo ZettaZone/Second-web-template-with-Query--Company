@@ -1,0 +1,83 @@
+{
+    "works" : [
+        {
+          "Id": 1,
+          "icon": "icon fas fa-cogs fa-3x",
+          "title": "Lorem ipsum",
+          "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsum sed eius repellat,adipisicing elit. Aliquam ipsum sed eius repellat, adipisicing elit. Aliquam ipsum sed eius repellat,  nemo doloremque?"
+        },
+        {
+            "Id": 2,
+            "icon": "icon fas fa-exclamation-triangle fa-3x",
+            "title": "Lorem ipsum",
+            "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsum sed eius repellat,adipisicing elit. Aliquam ipsum sed eius repellat, adipisicing elit. Aliquam ipsum sed eius repellat,  nemo doloremque?"
+          },
+        {
+            "Id": 3,
+            "icon": "icon fas fa-clipboard fa-3x",
+            "title": "Lorem ipsum",
+            "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ipsum sed eius repellat,adipisicing elit. Aliquam ipsum sed eius repellat, adipisicing elit. Aliquam ipsum sed eius repellat,  nemo doloremque?"
+          }
+      ],
+
+      "portfolio" : [
+        {
+          "id": 1,
+          "image":"images/Portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id": 2,
+            "image":"images/Portfolio/portfolio-img2.jpg"},
+        {
+            "id": 3,
+           "image":"images/Portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id": 4,
+           "image":"images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id": 5,
+            "image":"images/Portfolio/portfolio-img5.jpg"
+          },
+          {
+              "id": 6,
+              "image":"images/Portfolio/portfolio-img6.jpg"},
+          {
+              "id": 7,
+             "image":"images/Portfolio/portfolio-img7.jpg"
+          },
+          {
+              "id": 8,
+             "image":"images/Portfolio/portfolio-img8.jpg"
+          }
+        ],
+
+        "Profile" : [
+            {
+                "id": 1,
+                "bartitle":"Lorem Ipsum",
+                "barperc":"100%",
+                "sp":1
+              },
+              {
+                "id": 2,
+                "bartitle":"Lorem Ipsum",
+                "barperc":"90%",
+                "sp":2
+              },
+              {
+                "id": 3,
+                "bartitle":"Lorem Ipsum",
+                "barperc":"90%",
+                "sp":2
+              },
+              {
+                "id": 4,
+                "bartitle":"Lorem Ipsum",
+                "barperc":"80%",
+                "sp":3
+              }
+              
+        ]
+}

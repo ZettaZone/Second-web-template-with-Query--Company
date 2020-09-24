@@ -1,0 +1,36 @@
+/* Media for Navbar Style */
+@media (max-width : 991px){
+    .navbar .logo{
+        width:100%;
+        float: none;
+    }
+
+    .navbar .ul_list{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .navbar .ul_list .list_item{
+        display:block;
+        text-align: center;
+    }
+}
+
+@media (min-width : 992px){
+    .navbar label{
+        display: none;
+    }
+}
+
+@media (max-width : 767px){
+    .navbar .logo .logo_text{
+        font-size : 24px;
+        font-weight: bold;
+    }
+    .navbar label {
+        width: 7px;
+        height: 7px;
+    }
+}
